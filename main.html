@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.js"></script>
+<script>
+/*This says that when the document is ready, a function will happen.  This is the function */
+$(document).ready(function() {
+	/*This makes sure that there is a variable, "a" */
+	var a=1
+	/*This says: When a block that has this i.d. is clicked, a function would happen.*/
+	$("#HandDmain").click(function() {
+		/*This is asking if the variable "a" is 1.  It is == becaise = is used as to transform "a" and == is to check*/
+		if(a==1) {
+			/*This makes the block with the id HandDdiv slide up in a quarter of a second*/
+			$("#HandDdiv").slideUp(250);
+			/*Since the action has been fulfilled, so that is won't happen twice, "a" becomes 2*/
+			a=2
+		/*This ends the if statement*/
+		}
+		/*This starts the else statement.  If "a" does not equal one, this happens*/
+		else {
+		/*This makes the block with the id HandDdiv slide down in a quarter of a second*/
+		$("#HandDdiv").slideDown(250);
+		/*Since the action has been fulfilled, so that the former statement can happen, "a" becomes 1*/
+		a=1
+		/*This ends the else statement*/
+		}
+	})
+});
+</script>
+<script>
+$(document).ready(function() {
+	var b=1
+	$("#bioh").click(function() {
+		if(b==1) {
+			$("#biodiv").slideUp(250);
+			b=2
+		}
+		else {
+		$("#biodiv").slideDown(250);
+		b=1
+		}
+	})
+});
+</script>
+<script>
+$(document).ready(function() {
+	var c=1
+	$("#sitemain").click(function() {
+		if(c==1) {
+			$("#sitediv").slideUp(250);
+			c=2
+		}
+		else {
+		$("#sitediv").slideDown(250);
+		c=1
+		}
+	})
+});
+</script>
+<script>
+$(document).ready(function() {
+	$("#Head").click(function() {
+		$("#Head").animate({marginTop:"calc(-7vw + -100px);"},500);
+		$("#Head").animate({marginTop:"calc(-7vw + -230px);"},500);
+		$("#Head").animate({marginTop:"calc(-7vw + -220px);"},100);
+	});
+});
+</script>
+<script>
+/*
+$(document).ready(function() {
+	$("#Head").click(function() {
+		$("#Head").animate({},500);
+		$("#Head").animate({marginTop:"-22%"},500);
+		$("#Head").animate({marginTop:"-20.5%"},500);
+	});
+});
+*/
+</script>
+<script>
+$(document).ready(function() {
+	$("#Head").click(function() {
+		$("#outline").animate({marginTop:"100px"},500);
+		$("#outline").animate({marginTop:"0px"},500);
+	});
+});
+</script>
+<style>
+
+</style>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+	<div id="outline"></div>
+	<div id="Head">
+		<p id="MainText">Hurr Durr's hrrg a drrg a derrgur</p>
+		<p id="SubText">Hrrg drrg derr da durr da hurr-da-derr</p>
+	</div>
+	<div id="bio" class="sec">
+		<h1 id="bioh">Hurr:</h1>
+		<h3 id="biodiv">
+		Hurr, duur.  Hurr dur der hur da dur.  Hur der hurrgader der herger. Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Hurr de der da hurr dur hur, heur de hur a der a hurr dur.  A dur da hur.  Hur da d'durrer.  Hurr, duur.  Hurr dur der hur da dur.  Hur der hurrgader der herger. Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Hurr de der da hurr dur hur, heur de hur a der a hurr dur.  A dur da hur.  Hur da d'durrer.  Hurr, duur.  Hurr dur der hur da dur.  Hur der hurrgader der herger. Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Hurr de der da hurr dur hur, heur de hur a der a hurr dur.  A dur da hur.  A dur da hur.  Hur da d'durrer.  Hurr, duur.  Hurr dur der hur da dur.  Hur der hurrgader der herger. Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Hurr dur der hur da dur.  Hur der hurrgader der herger. Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Hurr de der da hurr dur hur, heur de hur a der a hurr dur.  A dur da hur.  Hur da d'durrer.  Hurr, duur.  Hurr dur der hur da dur.  Hur der hurrgader der herger. Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Hurr de der da hurr dur hur, heur de hur a der a hurr dur.  A dur da hur.  A dur da hur.  Hur da d'durrer.  Hurr, duur.  Hurr dur der hur da dur.  A dur da hur.  Hur da d'durrer.  Hurr, duur.  Hurr dur der hur da dur.  Hur der hurrgader der herger. Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  Hurr de der da hurr dur hur, heur de hur a der a hurr dur.  A dur da hur.  A dur da hur.  Hur da d'durrer.  Hurr, duur.  Hurr dur der hur da dur.  Hur der hurrgader der herger. Dur hur der herr derr hur de-durr, de durr de hurr der-hu'der.  
+		 <!-- <img src="Me.jpg" />  -->
+		<p id="piclable">^ Hurr Durr</p>
+		</h3>
+	</div>
+	<div id="HandD" class="sec">
+		<h1 id="HandDmain">H&amp;D:</h1>
+		<div id="HandDdiv">
+			<h2>H: Hurrgr der da herra ger?</h2>
+			<h2>D: Hurr der huder a hurr.</h2>
+			<br />
+			<h2>H: Dur de hurr da hurr?</h2>
+			<h2>D: Da hur durr da da durr.</h2>
+			<br />
+			<h2>H: HURR DURR DU HERR DU HUR?!</h2>
+			<h2>D: Durr, durr.  Hur dur d'hurr dur hur da'a hurr</h2>
+			<br />
+			<h2>H: Hurr, da hur derr hurd derdahurr?</h2>
+			<h2>D: Herr de duherr herr der.</h2>
+		</div>
+	</div>
+	<div id="Hurrsites" class="sec">
+		<h1 id="sitemain">Hurrsites</h1>
+		<div id="sitediv">
+			<h3>hurrbook.com/hurr/HurrDurr</h3>
+			<br />
+			<h3>twitderr.com/HurrDurr</h3>
+			<br />
+			<h3>hurrspace.net/hurr/id=HurrDurr</h3>
+			<br />
+			<h3>hurrit.com/u/HurrDurr</h3>
+		</div>
+	</div>
+</body>
+</html>
