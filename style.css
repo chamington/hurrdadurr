@@ -4,40 +4,41 @@ body {
 #Head {
 	height: 15.4vw; 
 	width:10vw;
-	background-color: khaki; 
+	background-color: #eee; 
 	border-radius:90vw;
-	margin-top: calc(-23vw + 0px);
+	margin-top: 0px;
 	width:99%;
 	margin-left:0.5%;
-	border-width:10px;
-	border-color:#67190F;
+	border-width:5px;
+	border-color:#ccc;
 	border-style:solid;
 }
 
 #MainText {
 	font-size: 7vw; 
 	text-align: center;
-	padding-top:15px;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:Arial, Helvetica, sans-serif;
 }
 #SubText {
 	font-size: calc(3vw + 0px);
 	text-align: center; 
-	margin-top: calc(-1%);
+	font-family:Tahoma, Geneva, sans-serif;
 }
 .sec {
-	margin-left:1%;
-	background-color:#600;
+	background-color:#eee;
 	border-radius:10px;
 	padding-left:0.5%;
 }
 h1 {
 	margin-left:20px;
-	color:#FFF;
+	color:#569;
 	font-family:Tahoma, Geneva, sans-serif;
 }
 
 h2 {
-	color:#ABC;
+	color:#123;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-left:10px;
 }
@@ -54,4 +55,18 @@ img {
 }
 #sitediv {
 	text-size:10px;
+}
+#subsets{
+	background-color:#ccc;
+	border-width:10px;
+	border-radius:5px;
+	border-style:solid;
+	border-color:#ccc;
+	margin-top:5px;
+}
+#bioh{
+	margin-top:0px;
+}
+#sitemain{
+	margin-bottom:0px;
 }
