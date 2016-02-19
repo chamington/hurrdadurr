@@ -85,3 +85,12 @@ img {
 	top:0;
 	border-radius:6px;
 }
+#morelinks{
+	width:150px;
+	height:50px;
+	border-bottom-width:10px;
+	border-color:#ccc;
+	border-style:solid;
+	font-size:30px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
