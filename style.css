@@ -1,5 +1,7 @@
 body {
-	background-image:url(texture.jpg);
+	/*background-image:url(texture.jpg);*/
+	margin-right:20px;
+	
 }
 #Head {
 	height: 15.4vw; 
@@ -47,7 +49,8 @@ h3 {
 }
 img {
 	margin-left:100%;
-	margin-top:-350px;
+	margin-top:-100%;
+	margin-bottom:100px;
 }
 #piclable{
 	margin-left:100%;
@@ -69,4 +72,16 @@ img {
 }
 #sitemain{
 	margin-bottom:0px;
+}
+#sidebar{
+	margin-left:calc(100vw - 18px);
+	width:90px;
+	height:100%;
+	background-color:#eee;
+	position:fixed;
+	border-width:10px;
+	border-color:#ccc;
+	border-style:solid;
+	top:0;
+	border-radius:5px;
 }
