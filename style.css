@@ -91,6 +91,18 @@ img {
 	border-bottom-width:10px;
 	border-color:#ccc;
 	border-style:solid;
-	font-size:30px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:26px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.morelinks{
+	width:150px;
+	height:50px;
+	border-bottom-width:10px;
+	border-color:#ccc;
+	border-style:solid;
+	font-size:100%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+a{
+	 display: block;
 }
