@@ -100,9 +100,10 @@ img {
 	border-bottom-width:10px;
 	border-color:#ccc;
 	border-style:solid;
-	font-size:100%;
+	font-size:12px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	display: block;
 }
-a{
-	 display: block;
+img{
+	margin:0px;
 }
